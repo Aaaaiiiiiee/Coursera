@@ -1,1 +1,1 @@
-# Coursera
+# Self-Study
