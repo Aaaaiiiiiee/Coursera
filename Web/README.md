@@ -1,4 +1,5 @@
-https://aaaaiiiiiee.github.io/Self-Study/Web/
+host URL
+* https://aaaaiiiiiee.github.io/Self-Study/Web/
 
 # 생활코딩
 https://opentutorials.org/course/3084
@@ -19,5 +20,5 @@ https://opentutorials.org/course/3084
 * /var/www/html 안에 source파일들을 넣어주면 된다.
 * 채팅 기능 추가
     - disqus.com
-* 채팅 기능 추가
+* 채팅 기능 추가 (1:1 고객센터)
     - www.tawk.to
