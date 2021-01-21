@@ -1,3 +1,5 @@
+# URL
+https://aaaaiiiiiee.github.io/Self-Study/Web/
 # 생활코딩
 https://opentutorials.org/course/3084
 
@@ -10,3 +12,6 @@ https://opentutorials.org/course/3084
 
 ## 2021-01-21
 ### 원시웹 ~ 
+* apache2 설치시 default로 index.html이 생성, 서버가 실행된다.
+* (IP Address)/index.html 로 접속 가능하다.
+* /var/www/html 안에 source파일들을 넣어주면 된다.
