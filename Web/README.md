@@ -18,6 +18,6 @@ https://opentutorials.org/course/3084
 * (IP Address)/index.html 로 접속 가능하다.
 * /var/www/html 안에 source파일들을 넣어주면 된다.
 * 채팅 기능 추가
-    - disquss.com
+    - disqus.com
 * 채팅 기능 추가
     - www.tawk.to
