@@ -1,4 +1,4 @@
-host URL
+# host URL
 * https://aaaaiiiiiee.github.io/Self-Study/Web/
 
 # 생활코딩
