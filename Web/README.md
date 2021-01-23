@@ -38,3 +38,9 @@ https://opentutorials.org/course/3084
     - <'div'><'span'>
     - 둘 다 100% 디자인을 위해 고안된 태그
     - div는 block element, span은 inline element
+
+    - 2개 이상의 태그를 나란히 배치하고 싶으면, 그것을 감싸는 부모태그가 필요하다.
+
+* 캔 아이 유즈 닷컴
+    - 해당 기술을 사용해도 되는지, 사용 가능하다면 전체 인구의 얼마나 사용 가능한 지 등을 알 수 있는 사이트.
+    - https://caniuse.com/
