@@ -1,2 +1,2 @@
 # Coursera
-* <a href="./AI For Everone">AI For Everyone</a>
+* <a href="./AI For Everyone">AI For Everyone</a>
