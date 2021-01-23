@@ -26,3 +26,9 @@ https://opentutorials.org/course/3084
 ## 2021-01-23
 ### WEB2 - CSS : 시작
 #### 커버페이지 ~
+* 웹페이지의 정보,내용은 html로 작성하는 것이고, 그와 구분하기 위해 디자인용 언어인 CSS를 만들었다.
+* block level element
+    : 줄 전체를 쓰는 property
+    - so, width 등을 통해 크기 변경 가능            
+* inline element
+    : 자신의 content 크기만큼만 부피를 차지하는 property
