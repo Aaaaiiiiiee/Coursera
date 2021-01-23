@@ -1,3 +1,3 @@
 # Self-Study
-## AI For Everyone
-## Web
+* <a href="./AI For Everyone">AI For Everyone</a>
+* <a href="./Web">Web</a>
