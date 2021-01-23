@@ -35,6 +35,6 @@ https://opentutorials.org/course/3084
     - 자신의 content 크기만큼만 부피를 차지하는 property
 
 * 그리드
-    - <'div'><'span'>
+    - <div><span>
     - 둘 다 100% 디자인을 위해 고안된 태그
     - div는 block element, span은 inline element
