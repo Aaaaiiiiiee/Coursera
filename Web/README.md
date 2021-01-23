@@ -22,3 +22,7 @@ https://opentutorials.org/course/3084
     - disqus.com
 * 채팅 기능 추가 (1:1 고객센터)
     - www.tawk.to
+
+## 2021-01-23
+### WEB2 - CSS : 시작
+#### 커버페이지 ~
