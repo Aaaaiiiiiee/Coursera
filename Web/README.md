@@ -44,3 +44,7 @@ https://opentutorials.org/course/3084
 * 캔 아이 유즈 닷컴
     - 해당 기술을 사용해도 되는지, 사용 가능하다면 전체 인구의 얼마나 사용 가능한 지 등을 알 수 있는 사이트.
     - https://caniuse.com/
+
+## 2021-01-25
+### WEB2 - JavaScript : 시작
+#### '커버페이지' ~ 
