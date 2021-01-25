@@ -47,6 +47,6 @@ https://opentutorials.org/course/3084
 
 ## 2021-01-25
 ### WEB2 - JavaScript : 시작
-#### '커버페이지' ~ 
+#### '커버페이지' ~ '조건문의 활용'
 * Datatype 'String' Docs
     - https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String
