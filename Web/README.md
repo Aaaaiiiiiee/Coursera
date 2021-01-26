@@ -23,21 +23,17 @@
 ## 2021-01-23
 ### WEB2 - CSS : 시작 & 마침
 #### '커버페이지' ~ '수업을 마치며'
-* 웹페이지의 정보,내용은 html로 작성하는 것이고, 그와 구분하기 위해 디자인용 언어인 CSS를 만들었다.
-
+* 웹페이지의 정보,내용은 html로 작성하는 것이고, 그와 구분하기 위해 디자인용 언어인 CSS를 만들었다.<br><br>
 * block level element
     - 줄 전체를 쓰는 property
     - so, width 등을 통해 크기 변경 가능            
 * inline element
-    - 자신의 content 크기만큼만 부피를 차지하는 property
-
+    - 자신의 content 크기만큼만 부피를 차지하는 property<br><br>
 * 그리드
     - <'div'><'span'>
     - 둘 다 100% 디자인을 위해 고안된 태그
-    - div는 block element, span은 inline element
-
-    - 2개 이상의 태그를 나란히 배치하고 싶으면, 그것을 감싸는 부모태그가 필요하다.
-
+    - div는 block element, span은 inline element<br><br>
+    - 2개 이상의 태그를 나란히 배치하고 싶으면, 그것을 감싸는 부모태그가 필요하다.<br><br>
 * [캔 아이 유즈 닷컴](https://caniuse.com/)
     - 해당 기술을 사용해도 되는지, 사용 가능하다면 전체 인구의 얼마나 사용 가능한 지 등을 알 수 있는 사이트.
 
