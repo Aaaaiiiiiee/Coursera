@@ -1,5 +1,5 @@
 # host URL
-https://aaaaiiiiiee.github.io/Self-Study/Web/
+https://aaaaiiiiiee.github.io/Self-Study/Web/Source/
 
 # 생활코딩
 https://opentutorials.org/course/3084
