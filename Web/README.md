@@ -42,4 +42,4 @@
 #### '커버페이지' ~ '조건문의 활용'
 * [Datatype 'String' Docs](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String)
 
-cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
+<br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
