@@ -1,3 +1,3 @@
 # Self-Study
-* [Coursera](./coursera)
+* [Coursera](./Coursera)
 * [Web](./Web)
