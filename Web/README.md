@@ -1,8 +1,7 @@
-# host URL
-https://aaaaiiiiiee.github.io/Self-Study/Web/Source/
+# Link to Blog
+* [Blog](https://aaaaiiiiiee.github.io/Self-Study/Web/Source/)
 
-# 생활코딩
-https://opentutorials.org/course/3084
+# [생활코딩](https://opentutorials.org/course/3084)
 
 ## 2021-01-20
 ### WEB1 - HTML & Internet : 시작
@@ -18,10 +17,8 @@ https://opentutorials.org/course/3084
 * apache2 설치시 default로 index.html이 생성, 서버가 실행된다.
 * (IP Address)/index.html 로 접속 가능하다.
 * /var/www/html 안에 source파일들을 넣어주면 된다.
-* 채팅 기능 추가
-    - disqus.com
-* 채팅 기능 추가 (1:1 고객센터)
-    - www.tawk.to
+* [댓글 기능 추가 / disqus.com](disqus.com)
+* [채팅 기능 추가 (1:1 고객센터) / tawk.to](www.tawk.to)
 
 ## 2021-01-23
 ### WEB2 - CSS : 시작 & 마침
@@ -41,12 +38,12 @@ https://opentutorials.org/course/3084
 
     - 2개 이상의 태그를 나란히 배치하고 싶으면, 그것을 감싸는 부모태그가 필요하다.
 
-* 캔 아이 유즈 닷컴
+* [캔 아이 유즈 닷컴](https://caniuse.com/)
     - 해당 기술을 사용해도 되는지, 사용 가능하다면 전체 인구의 얼마나 사용 가능한 지 등을 알 수 있는 사이트.
-    - https://caniuse.com/
 
 ## 2021-01-25
 ### WEB2 - JavaScript : 시작
 #### '커버페이지' ~ '조건문의 활용'
-* Datatype 'String' Docs
-    - https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String
+* [Datatype 'String' Docs](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
