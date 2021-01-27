@@ -42,4 +42,14 @@
 #### '커버페이지' ~ '조건문의 활용'
 * [Datatype 'String' Docs](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String)
 
+## 2021-01-27
+### WEB2 - JavaScript : (2)
+#### '리팩토링(refactoring)' ~ '함수'
+* html tag 내에서 JavaScript를 실행할 때, 해당 태그를 선택하고 싶으면 <strong>this</strong>를 사용하면 된다.
+* html tag 에서 JavaScript 함수를 호출했을 때, 해당 태그를 선택하고 싶으면 함수인자(parameter)로 넘겨서 사용해라. eg. self<br><br>
+* document.querySelector
+    - return value : tag
+* document.querySelectorAll
+    - return value : nodelist[tag]
+
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
