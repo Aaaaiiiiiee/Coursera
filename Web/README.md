@@ -52,4 +52,8 @@
 * document.querySelectorAll
     - return value : nodelist[tag]
 
+## 2021-01-28
+### WEB2 - JavaScript : (3)
+#### '' ~ '' + WEB1 - HTML & Internet '부록 : 코드의 힘 - 방문자 분석기'
+
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
