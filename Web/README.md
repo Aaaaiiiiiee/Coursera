@@ -53,7 +53,8 @@
     - return value : nodelist[tag]
 
 ## 2021-01-28
-### WEB2 - JavaScript : (3)
-#### '' ~ '' + WEB1 - HTML & Internet '부록 : 코드의 힘 - 방문자 분석기'
+### 자습
+#### WEB1 - HTML & Internet '부록 : 코드의 힘 - 방문자 분석기'
+* "README.md에서 JavaScript 사용하기 / README.md html 불러오기" 는 언젠가 다시 시도해서, 모든 github.io 사이트에 Google Analytics 연결하기
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
