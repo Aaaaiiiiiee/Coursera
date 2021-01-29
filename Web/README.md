@@ -10,6 +10,7 @@
 * 본문은 너의 글(Article)을 작문하는 것이다.
 * Article을 쓰고 그것들을 태그로 감싸는 이유는
 * 검색엔진에서 웹페이지를 검색했을 때, 유용한 정보들을 구분하기 위한 약속이다.
+* [Copyright Free Image Site](unsplash.com)
 
 ## 2021-01-21
 ### WEB1 - HTML & Internet : 마침
