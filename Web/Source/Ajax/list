@@ -1,0 +1,4 @@
+<li><a href="#!1" onclick="fetchPage('1.html')">HTML</a></li>
+<li><a href="#!2" onclick="fetchPage('2')">CSS</a></li>
+<li><a href="#!3" onclick="fetchPage('3')">JavaScript</a></li>
+<li><a href="#!ajax" onclick="fetchPage('4')">ajax</a></li>

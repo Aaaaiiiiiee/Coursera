@@ -74,5 +74,9 @@
     - speech : 사용자의 음성을 인식하고, 음성으로 정보를 정달하고 싶다면 speech로 시작하는 api를 살펴보라
     - webVR : 가상현실에 관심이 많다면 살펴보라
 ### WEB3 - Ajax
+#### '커버페이지' ~ 
+* Ajax는 <strong>Server와 부분적으로 통신을 주고받을 수 있는 기술이다.</strong><br><br>
+* <strong>Ajax</strong>를 통해 다른 파일의 내용을 현재 html 안으로 불러올 수 있다.
+* <strong>hash</strong>를 통해 페이지 내 특정 위치로 이동할 수 있다.
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
