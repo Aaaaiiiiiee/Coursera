@@ -73,7 +73,7 @@
     - webRTC : 화상통신 웹앱 만들고 싶다면
     - speech : 사용자의 음성을 인식하고, 음성으로 정보를 정달하고 싶다면 speech로 시작하는 api를 살펴보라
     - webVR : 가상현실에 관심이 많다면 살펴보라
-### WEB3 - Ajax
+### WEB3 - Ajax : 시작 & 마침
 #### '커버페이지' ~ '수업을 마치며'
 * Ajax는 <strong>Server와 부분적으로 통신을 주고받을 수 있는 기술이다.</strong><br><br>
 * <strong>Ajax</strong>를 통해 다른 파일의 내용을 현재 html 안으로 불러올 수 있다.
@@ -81,7 +81,7 @@
 ### WEB3 - Facebook Login
 #### '커버페이지' ~ '인증과정과 Access token'
 * [Facebook Developer Page](https://developers.facebook.com/) 에러로 현재 진행 불가
-### WEB3 - Google Login
+### WEB3 - Google Login : 시작 & 마침
 #### '커버페이지' ~ 'OAuth를 직접 구현하기'
 * [Google cloud console](console.cloud.google.com)에서 login 설정 가능하다.
     - 다른 Google API(Calendar, Maps, ...) 등도 library 탭에서 설정한다.
@@ -90,5 +90,8 @@
     - 'Guides'를 따라가면 기본 기능을 구현할 수 있고
     - 'Reference'는 Docs이다.
     - OAuth를 직접 구현하는 단계 정도는 되어야 DB에 저장 등이 가능할 듯
+### WEB2 - Node.js : (1)
+#### '커버페이지' ~ 
+* 
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
