@@ -58,4 +58,10 @@
 #### WEB1 - HTML & Internet '부록 : 코드의 힘 - 방문자 분석기'
 * "README.md에서 JavaScript 사용하기 / README.md html 불러오기" 는 언젠가 다시 시도해서, 모든 github.io 사이트에 Google Analytics 연결하기
 
+## 2021-01-30
+### WEB2 - JavaScript : 마침
+#### '함수의 활용' ~ 
+* ctrl + k + f : 소스코드 정렬 단축키
+* [jQuery 사이트](https://jquery.com/) > Download jQuery > Download file or Link 'CDN'
+
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)

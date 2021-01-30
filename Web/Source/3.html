@@ -4,30 +4,9 @@
     <title>WEB2 - JavaScript</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://aaaaiiiiiee.github.io/googleAnalytics.js"></script>
-    <script>
-    function nightDayHandler(self){
-        var target = document.querySelector('body');
-        if(self.value === 'night'){
-            target.style.backgroundColor = 'black';
-            target.style.color = 'white';
-
-            var a_tags = document.querySelectorAll('a');
-            for(var num=0; num < a_tags.length; num++)
-                a_tags[num].style.color = 'powderblue'
-            self.value = 'day';
-        }
-        else{
-            target.style.backgroundColor = 'white';
-            target.style.color = 'black';
-
-            var a_tags = document.querySelectorAll('a');
-            for(var num=0; num < a_tags.length; num++)
-                a_tags[num].style.color = 'black'
-            self.value = 'night';
-            }
-    }
-    </script>
+    <script src="colors.js"></script>
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
