@@ -15,7 +15,7 @@
         content="593805717137-l833308hd3h8tno2sve81tha53oi80k6.apps.googleusercontent.com">
     <script>
         function checkLoginStatus() {
-            var loginBtn = document.querySelection('#loginBtn');
+            var loginBtn = document.querySelector('#loginBtn');
             var nameTxt = document.querySelector('#name');
             if (gauth.isSignedIn.get()) {
                 console.log('logined');
