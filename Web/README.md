@@ -60,7 +60,7 @@
 
 ## 2021-01-30
 ### WEB2 - JavaScript : 마침
-#### '함수의 활용' ~ 
+#### '함수의 활용' ~ '수업을 마치며'
 * ctrl + k + f : 소스코드 정렬 단축키<br><br>
 * [jQuery 사이트](https://jquery.com/) > Download jQuery > Download file or Link 'CDN'<br><br>
 * 추천 검색어
