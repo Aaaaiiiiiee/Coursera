@@ -91,7 +91,7 @@
     - 'Reference'는 Docs이다.
     - OAuth를 직접 구현하는 단계 정도는 되어야 DB에 저장 등이 가능할 듯
 ### WEB2 - Node.js : (1)
-#### '커버페이지' ~ 'App - 함수를 이용해서 정리 정돈하기'
+#### '커버페이지' ~ '수업의 정상'
 * 'JavaScript - *'는 제외<br><br>
 * Internet 모든 Web Server의 port는 80을 쓰기로 약속했다. 때문에 80번 포트를 열어놓으면 접속할 때 포트번호를 명시하지 않아도 된다.
 * [LineRemove](https://removelinebreaks.net/)
