@@ -79,6 +79,9 @@
 * <strong>Ajax</strong>를 통해 다른 파일의 내용을 현재 html 안으로 불러올 수 있다.
 * <strong>hash</strong>를 통해 페이지 내 특정 위치로 이동할 수 있다.
 ### WEB3 - Facebook Login
-#### '커버페이지' ~ '페이스북 API 사용'
+#### '커버페이지' ~ '인증과정과 Access token'
+* [Facebook Developer Page](https://developers.facebook.com/) 에러로 현재 진행 불가
+### WEB3 - Google Login
+#### '커버페이지' ~ 
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
