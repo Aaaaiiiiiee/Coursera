@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
     <title>WEB1 - Welcome</title>
     <meta charset="utf-8">
@@ -10,26 +11,54 @@
     <!-- Google Analytics -->
     <script type="text/javascript" src="https://aaaaiiiiiee.github.io/googleAnalytics.js"></script>
     <!-- Google Login -->
-    <meta name="google-signin-client_id" content="593805717137-l833308hd3h8tno2sve81tha53oi80k6.apps.googleusercontent.com">
+    <meta name="google-signin-client_id"
+        content="593805717137-l833308hd3h8tno2sve81tha53oi80k6.apps.googleusercontent.com">
     <script>
-        function init(){
+        function checkLoginStatus() {
+            var loginBtn = document.querySelection('#loginBtn');
+            var nameTxt = document.querySelector('#name');
+            if (gauth.isSignedIn.get()) {
+                console.log('logined');
+                loginBtn.value = 'Logout';
+                var profile = gauth.currentUser.get().getBasicProfile();
+                nameTxt.innerHTML = 'Welcome ' + profile.getName();
+            } else {
+                console.log('logouted');
+                loginBtn.value = 'Login';
+                nameTxt.innerHTML = '';
+            }
+        }
+        function init() {
             gapi.load('auth2', function () {
                 console.log('auth2');
+                window.gauth = gapi.auth2.init({
+                    client_id: '593805717137-l833308hd3h8tno2sve81tha53oi80k6.apps.googleusercontent.com'
+                })
+                gauth.then(function () {
+                    console.log('googleAuth success');
+                    checkLoginStatus();
+                }, function () {
+                    console.log('googleAuth fail');
+                })
             });
         }
     </script>
-    <script>
-        function onSignIn(googleUser) {
-                var profile = googleUser.getBasicProfile();
-                console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-                console.log('Name: ' + profile.getName());
-                console.log('Image URL: ' + profile.getImageUrl());
-                console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-            }
-    </script>
 </head>
+
 <body>
-    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <span id='name'></span><input type='button' id='loginBtn' value='checking...' onclick="
+        if(this.value === 'login'){
+            gauth.signIn().then(function(){
+                console.log('gauth.signIn()');
+                checkLoginStatus();
+            });
+        } else{
+            gauth.signOut().then(function(){
+                console.log('gauth.signOut()');
+                checkLoginStatus();
+            });
+        }
+    ">
     <h1><a href="index.html">WEB</a></h1>
     <input type="button" value="night" onclick="nightDayHandler(this)">
     <div id="grid">
@@ -45,6 +74,7 @@
     </div>
     <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
 </body>
+
 </html>
 
 <!---
