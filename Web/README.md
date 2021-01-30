@@ -82,12 +82,13 @@
 #### '커버페이지' ~ '인증과정과 Access token'
 * [Facebook Developer Page](https://developers.facebook.com/) 에러로 현재 진행 불가
 ### WEB3 - Google Login
-#### '커버페이지' ~ 
+#### '커버페이지' ~ 'OAuth를 직접 구현하기'
 * [Google cloud console](console.cloud.google.com)에서 login 설정 가능하다.
     - 다른 Google API(Calendar, Maps, ...) 등도 library 탭에서 설정한다.
     - 이외 scope 객체(Docs에서 검색)에서 각 API가 필요로 하는 정보를 넘긴다.
 * [Google Login Docs](https://developers.google.com/identity/sign-in/web/reference)
     - 'Guides'를 따라가면 기본 기능을 구현할 수 있고
     - 'Reference'는 Docs이다.
+    - OAuth를 직접 구현하는 단계 정도는 되어야 DB에 저장 등이 가능할 듯
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
