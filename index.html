@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <head>
+        <script>
+            fetch('README.md').then(function(response){
+                response.text().then(function(text){
+                    document.querySelector('body').innerHTML = text;
+                })
+            })
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
