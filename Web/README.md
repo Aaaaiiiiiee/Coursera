@@ -92,6 +92,7 @@
     - OAuth를 직접 구현하는 단계 정도는 되어야 DB에 저장 등이 가능할 듯
 ### WEB2 - Node.js : (1)
 #### '커버페이지' ~ 
-* 
+* 'JavaScript - *'는 제외
+
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
