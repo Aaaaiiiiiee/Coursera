@@ -61,7 +61,17 @@
 ## 2021-01-30
 ### WEB2 - JavaScript : 마침
 #### '함수의 활용' ~ 
-* ctrl + k + f : 소스코드 정렬 단축키
-* [jQuery 사이트](https://jquery.com/) > Download jQuery > Download file or Link 'CDN'
+* ctrl + k + f : 소스코드 정렬 단축키<br><br>
+* [jQuery 사이트](https://jquery.com/) > Download jQuery > Download file or Link 'CDN'<br><br>
+* 추천 검색어
+    - document : page의 태그 삭제 or 자식태그추가 등
+    - DOM : 위에서 못찾았을 시<br><br>
+    - window : 웹페이지가 아니라 웹브라우저 자체를 제어해야 한다면
+    - ajax : 웹페이지 reload 없이 정보를 변경하고 싶을 때
+    - cookie : 웹페이지가 reload 되어도 현재 상태 유지하고 싶을 때<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사용자별 개인화된 서비스 제공 가능<br><br>
+    - offline web application : 인터넷이 끊겨도 동작하는 어플리케이션 만들고 싶다면
+    - webRTC : 화상통신 웹앱 만들고 싶다면
+    - speech : 사용자의 음성을 인식하고, 음성으로 정보를 정달하고 싶다면 speech로 시작하는 api를 살펴보라
+    - webVR : 가상현실에 관심이 많다면 살펴보라
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
