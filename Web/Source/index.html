@@ -10,8 +10,14 @@
     <!-- Google Analytics -->
     <script type="text/javascript" src="https://aaaaiiiiiee.github.io/googleAnalytics.js"></script>
     <!-- Google Login -->
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <meta name="google-signin-client_id" content="593805717137-l833308hd3h8tno2sve81tha53oi80k6.apps.googleusercontent.com.apps.googleusercontent.com">
+    <meta name="google-signin-client_id" content="593805717137-l833308hd3h8tno2sve81tha53oi80k6.apps.googleusercontent.com">
+    <script>
+        function init(){
+            gapi.load('auth2', function () {
+                console.log('auth2');
+            });
+        }
+    </script>
     <script>
         function onSignIn(googleUser) {
                 var profile = googleUser.getBasicProfile();
@@ -37,6 +43,7 @@
             <p>This is World Wide Web!!</p>
         </div>
     </div>
+    <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
 </body>
 </html>
 
