@@ -97,4 +97,13 @@
 * [LineRemove](https://removelinebreaks.net/)
 * Node.js filepath의 상대경로는 Terminal의 Current Working Directory 기준이다.
 
+## 2021-01-31
+### WEB2 - Node.js : (2)
+#### 'Node.js - 동기와 비동기 그리고 콜백' ~ 'App - 글생성 UI 만들기'
+* [PM2](https://pm2.keymetrics.io/)
+    - Server가 의도하지 않은 이유로 꺼졌을 때 다시 실행시켜줌
+    - run 중인 파일이 수정되면 자동으로 껐다 켜줌(수동으로 할 필요 없어짐)<br><br>
+* 서버에서 데이터를 가져올 때           : GET 방식의 URL QueryString 사용
+* 서버에서 데이터를 생성/수정/삭제할 때  : POST 방식 사용
+
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
