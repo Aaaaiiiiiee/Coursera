@@ -99,7 +99,7 @@
 
 ## 2021-01-31
 ### WEB2 - Node.js : (2)
-#### 'Node.js - 동기와 비동기 그리고 콜백' ~ '수업을 마치며'
+#### 'Node.js - 동기와 비동기 그리고 콜백' ~ '보충수업 - PM2 사용법'
 * [PM2](https://pm2.keymetrics.io/)
     - Server가 의도하지 않은 이유로 꺼졌을 때 다시 실행시켜줌
     - run 중인 파일이 수정되면 자동으로 껐다 켜줌(수동으로 할 필요 없어짐)<br><br>
@@ -110,6 +110,11 @@
 * *.js에서 ${Variation}을 사용하기 위해선, `(~)를 사용해라.
     - eg. \`${Variation}\`<br><br>
 * Page Redirect Number = 302<br><br>
-* `Node.js AWESOME` 주목받는 Module 검색할 수 있는 검색어
+* `Node.js AWESOME` 주목받는 Module 검색할 수 있는 검색어<br><br>
+* PM2 사용법
+    - `pm2 list` : pm2로 켜진 process 모두 출력
+    - `pm2 kill` : pm2로 켜진 process 모두 삭제
+    - option으로 `--no-daemon` : pm2로 서버 돌리면서 log 같이 볼 수 있음
+    - option; `--ignore-watch="data/* sessions/*"` : 파일이 생성될 때마다, pm2가 꺼졌다 켜지는 것을 막을 수 있음. (data directory와 sessions directory 안의 것은 ignore)
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
