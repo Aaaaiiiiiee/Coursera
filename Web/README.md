@@ -99,12 +99,17 @@
 
 ## 2021-01-31
 ### WEB2 - Node.js : (2)
-#### 'Node.js - 동기와 비동기 그리고 콜백' ~ 'App - POST 방식으로 전송된 데이터 받기'
+#### 'Node.js - 동기와 비동기 그리고 콜백' ~ '수업을 마치며'
 * [PM2](https://pm2.keymetrics.io/)
     - Server가 의도하지 않은 이유로 꺼졌을 때 다시 실행시켜줌
     - run 중인 파일이 수정되면 자동으로 껐다 켜줌(수동으로 할 필요 없어짐)<br><br>
 * 서버에서 데이터를 가져올 때           : GET 방식의 URL QueryString 사용
 * 서버에서 데이터를 생성/수정/삭제할 때  : POST 방식 사용<br><br>
 * request.on()을 이용해서 post 방식으로 넘어온 데이터를 받고, 객체화할 수 있다.
+    - data는 한 번에 넘어오지 않고, 여러번 나뉘어져 넘어온다.<br><br>
+* *.js에서 ${Variation}을 사용하기 위해선, `(~)를 사용해라.
+    - eg. \`${Variation}\`<br><br>
+* Page Redirect Number = 302<br><br>
+* `Node.js AWESOME` 주목받는 Module 검색할 수 있는 검색어
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
