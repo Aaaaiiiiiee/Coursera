@@ -111,6 +111,7 @@
     - eg. \`${Variation}\`<br><br>
 * Page Redirect Number = 302<br><br>
 * `Node.js AWESOME` 주목받는 Module 검색할 수 있는 검색어<br><br>
+* npm 설치 시, `-S` option을 주면, 해당 프로젝트에서만 사용할 수 있도록 설치가 된다.
 * PM2 사용법
     - `pm2 list` : pm2로 켜진 process 모두 출력
     - `pm2 kill` : pm2로 켜진 process 모두 삭제
