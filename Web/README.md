@@ -90,7 +90,7 @@
     - 'Guides'를 따라가면 기본 기능을 구현할 수 있고
     - 'Reference'는 Docs이다.
     - OAuth를 직접 구현하는 단계 정도는 되어야 DB에 저장 등이 가능할 듯
-### WEB2 - Node.js : (1)
+### WEB2 - Node.js : 시작
 #### '커버페이지' ~ '수업의 정상'
 * 'JavaScript - *'는 제외<br><br>
 * Internet 모든 Web Server의 port는 80을 쓰기로 약속했다. 때문에 80번 포트를 열어놓으면 접속할 때 포트번호를 명시하지 않아도 된다.
@@ -111,7 +111,7 @@
     - eg. \`${Variation}\`<br><br>
 * Page Redirect Number = 302<br><br>
 * `Node.js AWESOME` 주목받는 Module 검색할 수 있는 검색어<br><br>
-* npm 설치 시, `-S` option을 주면, 소스파일 내에서 사용할 수 있도록 설치가 된다.
+* npm 설치 시, `-S`, `--save` option을 주면, 소스파일 내에서 사용할 수 있도록 설치가 된다.
 * PM2 사용법
     - `pm2 list` : pm2로 켜진 process 모두 출력
     - `pm2 kill` : pm2로 켜진 process 모두 삭제
@@ -119,7 +119,7 @@
     - option; `--ignore-watch="data/* sessions/*"` : 파일이 생성될 때마다, pm2가 꺼졌다 켜지는 것을 막을 수 있음. (data directory와 sessions directory 안의 것은 ignore)
 
 ## 2021-02-02
-### WEB3 - Express
+### WEB3 - Express : 시작
 #### '커버 페이지' ~ 'Express 미들웨어의 실행순서'
 * Search `nodejs popular Frameworks 2020`<br><br>
 * `app` Method에 따른 요청 방식
@@ -127,6 +127,16 @@
     - `app.post()`  : POST 방식의 요청에 응답
     - `app.use()`   : GET, POST 둘 다 응답
         - conclude : Express module은 사실 연속적인 미들웨어 방식으로 이루어져있다고 볼 수 있다.
+
+## 2021-02-04
+### WEB3 - Express : 마침
+#### '' ~ ''
+* `app.use(express.static('public'));`
+    - 'public'이란 Directory 안의 파일들에 웹 상에서 직접적으로 접근할 수 있도록 한 것.
+    - express default function<br><br>
+* Error Handling도 별도로 가능하다.<br><br>
+* [Express Security Docs](https://expressjs.com/ko/advanced/best-practice-security.html)
+* [Express Generator Docs](https://expressjs.com/ko/starter/generator.html)
 
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
