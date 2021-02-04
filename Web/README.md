@@ -130,13 +130,18 @@
 
 ## 2021-02-04
 ### WEB3 - Express : 마침
-#### '' ~ ''
+#### '정적인 파일의 서비스' ~ '수업을 마치며'
 * `app.use(express.static('public'));`
     - 'public'이란 Directory 안의 파일들에 웹 상에서 직접적으로 접근할 수 있도록 한 것.
     - express default function<br><br>
 * Error Handling도 별도로 가능하다.<br><br>
 * [Express Security Docs](https://expressjs.com/ko/advanced/best-practice-security.html)
 * [Express Generator Docs](https://expressjs.com/ko/starter/generator.html)
+* 주제 소개
+    1) Template Engine
+        - pug
+    2) Database
+    3) Middleware
 
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
