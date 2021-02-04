@@ -3,6 +3,17 @@
 
 # [생활코딩](https://opentutorials.org/course/3084)
 
+## Index
+[WEB1 - HTML & Internet](.#'web1---html--internet--시작')
+[WEB2 - CSS](.#'web2---css--시작--마침')
+[WEB2 - JavaScript](.#web2---javascript--시작)
+[WEB3 - Ajax](.#web3---ajax--시작--마침)
+[WEB3 - Facebook Login](.#web3---facebook-login)
+[WEB2 - Google Login](.#web3---google-login--시작--마침)
+[WEB2 - Node.js](.#web2---nodejs--1)
+[WEB3 - Express](.#web2---nodejs--1)
+[WEB2 - HTTP](.#web2---http--시작--마침)
+
 ## 2021-01-20
 ### WEB1 - HTML & Internet : 시작
 #### '커버페이지' ~ '웹사이트 완성'
@@ -73,14 +84,17 @@
     - webRTC : 화상통신 웹앱 만들고 싶다면
     - speech : 사용자의 음성을 인식하고, 음성으로 정보를 정달하고 싶다면 speech로 시작하는 api를 살펴보라
     - webVR : 가상현실에 관심이 많다면 살펴보라
+
 ### WEB3 - Ajax : 시작 & 마침
 #### '커버페이지' ~ '수업을 마치며'
 * Ajax는 <strong>Server와 부분적으로 통신을 주고받을 수 있는 기술이다.</strong><br><br>
 * <strong>Ajax</strong>를 통해 다른 파일의 내용을 현재 html 안으로 불러올 수 있다.
 * <strong>hash</strong>를 통해 페이지 내 특정 위치로 이동할 수 있다.
+
 ### WEB3 - Facebook Login
 #### '커버페이지' ~ '인증과정과 Access token'
 * [Facebook Developer Page](https://developers.facebook.com/) 에러로 현재 진행 불가
+
 ### WEB3 - Google Login : 시작 & 마침
 #### '커버페이지' ~ 'OAuth를 직접 구현하기'
 * [Google cloud console](console.cloud.google.com)에서 login 설정 가능하다.
@@ -90,6 +104,7 @@
     - 'Guides'를 따라가면 기본 기능을 구현할 수 있고
     - 'Reference'는 Docs이다.
     - OAuth를 직접 구현하는 단계 정도는 되어야 DB에 저장 등이 가능할 듯
+
 ### WEB2 - Node.js : 시작
 #### '커버페이지' ~ '수업의 정상'
 * 'JavaScript - *'는 제외<br><br>
@@ -140,8 +155,17 @@
 * 주제 소개
     1) Template Engine
         - pug
-    2) Database
-    3) Middleware
+    1) Database
+    1) Middleware
+
+### WEB2 - HTTP : 시작 ~ 마침
+#### '커버페이지' ~ '수업을 마치며'
+1) HTTPS
+    - LOGIN 등을 할 때는 꼭 https를 봐라?
+1) Cache
+1) cookie
+1) proxy
+1) www.wireshark.org
 
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
