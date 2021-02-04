@@ -22,53 +22,31 @@ app.get('*', function (request, response, next){
         next();
     });
 });
+// 'public'이란 Directory 안에 있는 파일들을 웹상에서 접근할 수 있도록 하는 것.
+app.use(express.static('public'));
+// 보안 관련 Middleware
+app.use(helmet());
 
 /* Add GET, POST link */
 app.get('/', (request, response) => {
     var title = 'Welcome';
     var description = 'Hello, Node.js';
-    var list = template.list(reqquest.list);
+    var list = template.list(request.list);
     var html = template.HTML(title, list,
-        `<h2>${title}</h2>${description}`,
-        `<a href="/create">create</a>`
+        `
+        <h2>${title}</h2>${description}
+        <img src="/images/hello.jpg" style="width:300px; display: block; margin-top: 10px;">
+        `,
+        `<a href="/topic/create">create</a>`
     );
     response.send(html);
-})
-
-app.get('/page/:pageId', (request, response) => {
-    /*
-        ** if URL is /page/HTML ...
-        request.params = {
-            pageId: 'HTML'
-        }
-    */
-
-    var filteredId = path.parse(request.params.pageId).base;
-    fs.readFile(`data/${filteredId}`, 'utf8', function (err, description) {
-        var title = request.params.pageId;
-        var sanitizedTitle = sanitizeHtml(title);
-        var sanitizedDescription = sanitizeHtml(description, {
-            allowedTags: ['h1']
-        });
-        var list = template.list(request.list);
-        var html = template.HTML(sanitizedTitle, list,
-            `<h2>${sanitizedTitle}</h2>${sanitizedDescription}`,
-            ` <a href="/create">create</a>
-                <a href="/update/${sanitizedTitle}">update</a>
-                <form action="/delete_process" method="post">
-                  <input type="hidden" name="id" value="${sanitizedTitle}">
-                  <input type="submit" value="delete">
-                </form>`
-        );
-        response.send(html);
-    });
 });
 
-app.get('/create', (request, response)=>{
+app.get('/topic/create', (request, response)=>{
     var title = 'WEB - create';
     var list = template.list(request.list);
     var html = template.HTML(title, list, `
-          <form action="/create_process" method="post">
+          <form action="/topic/create_process" method="post">
             <p><input type="text" name="title" placeholder="title"></p>
             <p>
               <textarea name="description" placeholder="description"></textarea>
@@ -81,24 +59,23 @@ app.get('/create', (request, response)=>{
     response.send(html);
 });
 
-app.post('/create_process', (request, response)=>{
+app.post('/topic/create_process', (request, response)=>{
     var post = request.body;
     var title = post.title;
     var description = post.description;
     fs.writeFile(`data/${title}`, description, 'utf8', function (err) {
-        response.writeHead(302, { Location: `/?id=${title}` });
-        response.end();
+        response.redirect(`/topic/${title}`);
     })
 });
 
-app.get('/update/:pageId', (request, response)=>{
+app.get('/topic/update/:pageId', (request, response)=>{
     var filteredId = path.parse(request.params.pageId).base;
     fs.readFile(`data/${filteredId}`, 'utf8', function (err, description) {
         var title = request.params.pageId;
         var list = template.list(request.list);
         var html = template.HTML(title, list,
             `
-            <form action="/update_process" method="post">
+            <form action="/topic/update_process" method="post">
               <input type="hidden" name="id" value="${title}">
               <p><input type="text" name="title" placeholder="title" value="${title}"></p>
               <p>
@@ -109,13 +86,13 @@ app.get('/update/:pageId', (request, response)=>{
               </p>
             </form>
             `,
-            `<a href="/create">create</a> <a href="/update/${title}">update</a>`
+            `<a href="/create">create</a> <a href="/topic/update/${title}">update</a>`
         );
         response.send(html);
     });
 });
 
-app.post('/update_process', (request, response) => {
+app.post('/topic/update_process', (request, response) => {
     var post = request.body;
 
     var id = post.id;
@@ -123,12 +100,12 @@ app.post('/update_process', (request, response) => {
     var description = post.description;
     fs.rename(`data/${id}`, `data/${title}`, function (error) {
         fs.writeFile(`data/${title}`, description, 'utf8', function (err) {
-            response.redirect(`/?id=${title}`);
+            response.redirect(`/topic/${title}`);
         })
     });
 });
 
-app.post('/delete_process', (request, response) => {
+app.post('/topic/delete_process', (request, response) => {
     var post = request.body;
 
     var id = post.id;
@@ -140,9 +117,50 @@ app.post('/delete_process', (request, response) => {
     })
 });
 
+app.get('/topic/:pageId', (request, response, next) => {
+    /*
+        ** if URL is /page/HTML ...
+        request.params = {
+            pageId: 'HTML'
+        }
+    */
+
+    var filteredId = path.parse(request.params.pageId).base;
+    fs.readFile(`data/${filteredId}`, 'utf8', function (err, description) {
+        if(err){
+            next(err);
+        }else{
+            var title = request.params.pageId;
+            var sanitizedTitle = sanitizeHtml(title);
+            var sanitizedDescription = sanitizeHtml(description, {
+                allowedTags: ['h1']
+            });
+            var list = template.list(request.list);
+            var html = template.HTML(sanitizedTitle, list,
+                `<h2>${sanitizedTitle}</h2>${sanitizedDescription}`,
+                ` <a href="/topic/create">create</a>
+                <a href="/topic/update/${sanitizedTitle}">update</a>
+                <form action="/topic/delete_process" method="post">
+                  <input type="hidden" name="id" value="${sanitizedTitle}">
+                  <input type="submit" value="delete">
+                </form>`
+            );
+            response.send(html);
+        }
+    });
+});
+
 /* Page not Found (404) */
-app.get('*', (req, res)=>{
-    res.send('Not found', 404);
+app.use((req, res, next)=>{
+    res.status(404).send('Sorry cant find that!');
+});
+
+/* 
+*** Error Middleware ***
+*   Error가 발생했을 때, handling이 가능하다.*/
+app.use((err, req, res, next)=>{
+    console.log(err.stack);
+    res.status(500).send('Something broke!');
 });
 
 /* Open ports 3000 */
