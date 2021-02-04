@@ -4,14 +4,14 @@
 # [생활코딩](https://opentutorials.org/course/3084)
 
 ## Index
-* How to make Web Pages
+* <strong>How to make Web Pages</strong>
     - [WEB1 - HTML & Internet](.#web1---html--internet--시작)
     - [WEB2 - CSS](.#web2---css--시작--마침)
     - [WEB2 - JavaScript](.#web2---javascript--시작)
     - [WEB3 - Ajax](.#web3---ajax--시작--마침)
     - [WEB3 - Facebook Login](.#web3---facebook-login)
     - [WEB3 - Google Login](.#web3---google-login--시작--마침)
-* How to make Web Servers
+* <strong>How to make Web Servers</strong>
     - [WEB2 - Node.js](.#web2---nodejs--1)
     - [WEB3 - Express](.#web2---nodejs--1)
     - [WEB2 - HTTP](.#web2---http--시작--마침)
