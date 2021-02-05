@@ -162,12 +162,37 @@
 
 ### WEB2 - HTTP : 시작 ~ 마침
 #### '커버페이지' ~ '수업을 마치며'
-1) HTTPS
-    - LOGIN 등을 할 때는 꼭 https를 봐라?
-1) Cache
-1) cookie
-1) proxy
-1) www.wireshark.org
+* 주제 소개
+    1) HTTPS
+        - LOGIN 등을 할 때는 꼭 https를 봐라?
+    1) Cache
+    1) cookie
+    1) proxy
+    1) www.wireshark.org
+
+## 2021-02-05
+### WEB3 - Node.js Cookie, Authentication : 시작
+#### '커버페이지' ~ '로그인 상태를 UI에 반영' 중
+* Server로 부터 Client가 Cookie를 한 번 받으면, 이후 Server에서 보내지 않더라도 Client는 저장(보유)하고 있다.
+* `npm install -s cookie`
+    - `cookie` module을 통해, `request.headers.cookie`의 cookie 값들을 Parsing할 수 있다.
+* Cookie의 Option 종류
+    * 생명
+        - Session Cookie
+        - Permanent Cookie
+            - `Max-Age` (현재 시점으로부터 얼마나 뒤에 만료시킬 것인지)
+            - `Expires` (절대적인 시점을 주면 됨)
+    * 보안
+        - `Secure`
+            - Https로 통신했을 때만, Cookie값을 넘겨주는 option.
+            - http로 통신할 때는 비교적 쉽게 그 값을 훔칠 수 있기 때문이다.
+        - `HttpOnly`
+            - Javascript(Web browser Console)에서 document.cookie로 cookie값들을 알아낼 수 있기 때문에, 그것을 방지하는 option.
+    * 사용범위
+        - `Path`
+            - 특정 경로에 접속했을 때만 사용하도록 하는 것
+        - `Domain`
+            - 특정 Domain 전체에서 사용할 수 있도록 하는 것
 
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
