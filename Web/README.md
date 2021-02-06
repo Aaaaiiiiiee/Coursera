@@ -201,6 +201,13 @@
 
 ### WEB3 - Node.js MySQL : 시작
 #### '커버 페이지' ~ ''
+* DBMS의 User 추가 및 권환 설정 방법
+    - Search "create user in mysql" [Docs](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql)
+    - mysql> CREATE USER `'username'`@`'%'` IDENTIFIED BY `'password'`;
+        - `username`과 `password`는 원하는 것
+        - `%`에는 원래 IP가 들어가는데, %로 표기하면 어디서든 접속 가능
+    - mysql> GRANT ALL PRIVILEGES ON `database_name`.`어떤권한줄건지` TO `'username'`@'`%'`;
+    - mysql> FLUSH PRIVILEGES;
 
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)

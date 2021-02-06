@@ -1,8 +1,8 @@
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
-  host     : 'yellow-skink-xxkb9zba.ws-us03.gitpod.io',
-  user     : 'root',
-  password : 'wj3889!',
+  host     : 'localhost',
+  user     : 'nodejs',
+  password : '111111',
   database : 'opentutorials'
 });
  
