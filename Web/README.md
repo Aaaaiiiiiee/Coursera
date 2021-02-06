@@ -199,7 +199,8 @@
 ### WEB3 - Node.js Cookie, Authentication : 마침
 #### '로그인 상태를 UI에 반영' ~ '수업을 마치며'
 
-### 
+### WEB3 - Node.js MySQL : 시작
+#### '커버 페이지' ~ ''
 
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
