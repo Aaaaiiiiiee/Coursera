@@ -200,7 +200,7 @@
 #### '로그인 상태를 UI에 반영' ~ '수업을 마치며'
 
 ### WEB3 - Node.js MySQL : 시작
-#### '커버 페이지' ~ ''
+#### '커버 페이지' ~ 'MySQL로 홈페이지 구현'
 * DBMS의 User 추가 및 권환 설정 방법
     - Search "create user in mysql" [Docs](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql)
     - mysql> CREATE USER `'username'`@`'%'` IDENTIFIED BY `'password'`;
