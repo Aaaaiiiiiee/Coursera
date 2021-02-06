@@ -195,5 +195,11 @@
         - `Domain`
             - 특정 Domain 전체에서 사용할 수 있도록 하는 것
 
+## 2021-02-06
+### WEB3 - Node.js Cookie, Authentication : 마침
+#### '로그인 상태를 UI에 반영' ~ '수업을 마치며'
+
+### 
+
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
