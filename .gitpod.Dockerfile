@@ -1,5 +1,6 @@
 FROM gitpod/workspace-full
 
+# Install `MySQL`
 FROM gitpod/workspace-mysql
 
 # Install custom tools, runtimes, etc.
@@ -9,9 +10,9 @@ FROM gitpod/workspace-mysql
 # More information: https://www.gitpod.io/docs/config-docker/
 
 # Install `pm2`
-RUN npm install pm2 -g \
+RUN npm install pm2 -g
 # Set MySQL can connect outside.
-    && sudo echo "
+RUN sudo echo "
 [mysqld_safe]
 socket          = /var/run/mysqld/mysqld.sock
 nice            = 0
