@@ -203,15 +203,25 @@
 #### '커버 페이지' ~ 'MySQL로 홈페이지 구현'
 * DBMS의 User 추가 및 권환 설정 방법
     - Search "create user in mysql" [Docs](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql)
-    - mysql> CREATE USER `'username'`@`'%'` IDENTIFIED BY `'password'`;
+    - `mysql> CREATE USER 'username'@'%' IDENTIFIED BY 'password'`;
         - `username`과 `password`는 원하는 것
         - `%`에는 원래 IP가 들어가는데, %로 표기하면 어디서든 접속 가능
-    - mysql> GRANT ALL PRIVILEGES ON `database_name`.`어떤권한줄건지` TO `'username'`@'`%'`;
-    - mysql> FLUSH PRIVILEGES;
+    - `mysql> GRANT ALL PRIVILEGES ON database_name.어떤권한줄건지 TO 'username'@'%'`;
+    - `mysql> FLUSH PRIVILEGES`;
 
 ## 2021-02-07
-### WEB3 - Node.js MySQL : (2)
-#### 'MySQL로 홈페이지 구현' ~ '저자 삭제 기능 구현'
+### WEB3 - Node.js MySQL : 마침
+#### 'MySQL로 홈페이지 구현' ~ '수업을 마치며'
+* 추천 주제
+    - 검색 기능 서비스 만들기
+        - `<form>`태그를 이용해서, `GET` 방식으로 검색어를 받으면 된다.
+        - DB 양이 많아지면, 검색이 느려지니 `index(색인)`을 찾아 이용해라.
+    - 정렬 기능 서비스 만들기
+        - `SELECT * FROM topic ORDER BY id DESC`
+    - 페이지 기능 서비스 만들기
+        - `SELECT * FROM topic LIMIT 0 OFFSET 20`
+        - 읽어올 데이터의 시작과 끝을 지정할 수 있음
+    - Not Only SQL(NO SQL)
 
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)

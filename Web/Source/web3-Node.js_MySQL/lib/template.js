@@ -1,3 +1,5 @@
+var sanitizeHtml = require('sanitize-html');
+
 module.exports = {
     HTML: function (title, list, body, control) {
         return `
@@ -20,7 +22,7 @@ module.exports = {
         var list = '<ul>';
         var i = 0;
         while (i < filelist.length) {
-            list = list + `<li><a href="/?id=${filelist[i].id}">${filelist[i].title}</a></li>`;
+            list = list + `<li><a href="/?id=${filelist[i].id}">${sanitizedHtml(filelist[i].title)}</a></li>`;
             i = i + 1;
         }
         list = list + '</ul>';
@@ -30,7 +32,7 @@ module.exports = {
         for (var i = 0; i < authors.length; i++) {
             var selected = '';
             if (authors[i].id === author_id) selected = 'selected';
-            tag += `<option value="${authors[i].id}" ${selected}>${authors[i].name}</option>`
+            tag += `<option value="${authors[i].id}" ${selected}>${sanitizeHtml(authors[i].name)}</option>`
         }
         return `
         <select name="author">
