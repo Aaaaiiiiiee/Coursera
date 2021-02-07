@@ -16,7 +16,7 @@
 # ignore all .pdf files in the doc/ directory
 # doc/**/*.pdf
 
-*/node_modules/
+node_modules/
 
-*/db.js
-!*/db.template.js
+db.js
+!db.template.js
