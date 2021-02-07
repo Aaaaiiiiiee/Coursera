@@ -209,5 +209,9 @@
     - mysql> GRANT ALL PRIVILEGES ON `database_name`.`어떤권한줄건지` TO `'username'`@'`%'`;
     - mysql> FLUSH PRIVILEGES;
 
+## 2021-02-07
+### WEB3 - Node.js MySQL : (2)
+#### 'MySQL로 홈페이지 구현' ~ ''
+
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
