@@ -1,6 +1,6 @@
 module.exports = {
   apps : [{
-    script: 'nodejs/express-session.js',
+    script: 'main.js',
     watch: '.'
   }],
 

@@ -224,6 +224,8 @@
     - Not Only SQL(NO SQL)
 
 ### WEB4 - Express Session Auth : 시작
-#### '커버 페이지' ~ ''
+#### '커버 페이지' ~ 'express-session을 이용한 인증구현; 강의3 - 세션 미들웨어 설치'
+* Session을 File System에 저장하는 것보다는 DB에 저장하는 것이 좋다.
+    - 예제에서는 File System 이용 (`session-file-store` 사용)
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
