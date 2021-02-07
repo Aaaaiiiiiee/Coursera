@@ -211,7 +211,7 @@
 
 ## 2021-02-07
 ### WEB3 - Node.js MySQL : (2)
-#### 'MySQL로 홈페이지 구현' ~ ''
+#### 'MySQL로 홈페이지 구현' ~ '저자 삭제 기능 구현'
 
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
