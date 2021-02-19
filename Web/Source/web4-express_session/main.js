@@ -25,6 +25,8 @@ app.use(express.static('public'));
 app.use(helmet());
 // Session Middleware
 app.use(session({
+    HttpOnly: true,
+    secure: true,
     secret: 'bawrfwfr3qed',   // github에 올리면 안됨.
     resave: false,
     saveUninitialized: true,

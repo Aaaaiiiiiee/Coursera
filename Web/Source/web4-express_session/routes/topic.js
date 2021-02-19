@@ -7,12 +7,13 @@ var router = express.Router();
 var sanitizeHtml = require('sanitize-html');
 /* personal module*/
 var template = require('../lib/template.js');
+var auth = require('../lib/auth');
 
-router.get('/create', (request, response)=>{
+router.get('/create', (request, response) => {
     var title = 'WEB - create';
     var list = template.list(request.list);
     var html = template.HTML(title, list, `
-          <form action="/create_process" method="post">
+          <form action="/topic/create_process" method="post">
             <p><input type="text" name="title" placeholder="title"></p>
             <p>
               <textarea name="description" placeholder="description"></textarea>
@@ -21,11 +22,16 @@ router.get('/create', (request, response)=>{
               <input type="submit">
             </p>
           </form>
-        `, '');
+        `, '',
+        auth.statusUI(request, response));
     response.send(html);
 });
 
-router.post('/create_process', (request, response)=>{
+router.post('/create_process', (request, response) => {
+    if(!auth.isOwner(request, response)){
+        response.redirect('/');
+        return false;
+    }
     var post = request.body;
     var title = post.title;
     var description = post.description;
@@ -34,7 +40,7 @@ router.post('/create_process', (request, response)=>{
     })
 });
 
-router.get('/update/:pageId', (request, response)=>{
+router.get('/update/:pageId', (request, response) => {
     var filteredId = path.parse(request.params.pageId).base;
     fs.readFile(`data/${filteredId}`, 'utf8', function (err, description) {
         var title = request.params.pageId;
@@ -52,13 +58,19 @@ router.get('/update/:pageId', (request, response)=>{
               </p>
             </form>
             `,
-            `<a href="/create">create</a> <a href="/topic/update/${title}">update</a>`
+            `<a href="/create">create</a> <a href="/topic/update/${title}">update</a>`,
+            auth.statusUI(request, response)
         );
         response.send(html);
     });
 });
 
 router.post('/update_process', (request, response) => {
+    if(!auth.isOwner(request, response)){
+        response.redirect('/');
+        return false;
+    }
+
     var post = request.body;
 
     var id = post.id;
@@ -72,6 +84,10 @@ router.post('/update_process', (request, response) => {
 });
 
 router.post('/delete_process', (request, response) => {
+    if(!auth.isOwner(request, response)){
+        response.redirect('/');
+        return false;
+    }
     var post = request.body;
 
     var id = post.id;
@@ -93,9 +109,9 @@ router.get('/:pageId', (request, response, next) => {
 
     var filteredId = path.parse(request.params.pageId).base;
     fs.readFile(`data/${filteredId}`, 'utf8', function (err, description) {
-        if(err){
+        if (err) {
             next(err);
-        }else{
+        } else {
             var title = request.params.pageId;
             var sanitizedTitle = sanitizeHtml(title);
             var sanitizedDescription = sanitizeHtml(description, {
@@ -109,7 +125,8 @@ router.get('/:pageId', (request, response, next) => {
                 <form action="/topic/delete_process" method="post">
                   <input type="hidden" name="id" value="${sanitizedTitle}">
                   <input type="submit" value="delete">
-                </form>`
+                </form>`,
+                auth.statusUI(request, response)
             );
             response.send(html);
         }

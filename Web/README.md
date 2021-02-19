@@ -230,7 +230,12 @@
 
 ## 2021-02-19
 ### WEB4 - Express Session Auth : 끝
-#### 'express-session을 이용한 인증구현; 강의 4 - 인증 상태를 UI에 반영' ~ ''
+#### 'express-session을 이용한 인증구현; 강의 4 - 인증 상태를 UI에 반영' ~ '수업을 마치며'
+* `session.destroy()`
+* `session.save()`
+* session의 option으로
+    - `secure: true`를 주면 https에서만 session을 주고받도록 설정할 수 있다.
+    - `HttpOnly: true`를 이용하면 javascript를 이용하여 session을 탈취할 수 없도록 한다.
 
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
