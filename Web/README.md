@@ -228,4 +228,9 @@
 * Session을 File System에 저장하는 것보다는 DB에 저장하는 것이 좋다.
     - 예제에서는 File System 이용 (`session-file-store` 사용)
 
+## 2021-02-19
+### WEB4 - Express Session Auth : 끝
+#### 'express-session을 이용한 인증구현; 강의 4 - 인증 상태를 UI에 반영' ~ ''
+
+
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
