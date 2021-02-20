@@ -18,6 +18,7 @@
 
 node_modules/
 sessions/
+config/google.json
 
 db.js
 !db.template.js
