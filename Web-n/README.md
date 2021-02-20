@@ -237,5 +237,8 @@
     - `secure: true`를 주면 https에서만 session을 주고받도록 설정할 수 있다.
     - `HttpOnly: true`를 이용하면 javascript를 이용하여 session을 탈취할 수 없도록 한다.
 
+### WEB5 - Express Passport : 시작
+#### '커버페이지' ~ 'passport.js 자격확인; 강의 2'
+
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)

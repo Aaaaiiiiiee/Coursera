@@ -17,6 +17,7 @@
 # doc/**/*.pdf
 
 node_modules/
+sessions/
 
 db.js
 !db.template.js
