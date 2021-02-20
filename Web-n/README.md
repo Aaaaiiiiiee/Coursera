@@ -242,12 +242,17 @@
     - `HttpOnly: true`를 이용하면 javascript를 이용하여 session을 탈취할 수 없도록 한다.
 
 ### WEB5 - Express Passport : 시작
-#### '커버페이지' ~ 'passport.js 자격확인; 강의 2'
+#### '커버 페이지' ~ 'passport.js 자격확인; 강의 2'
 
 ## 2021-02-20
 ### WEB5 - Express Passport : 끝
 #### 'passport.js 세션이용' ~ '수업을 마치며'
+* `passport.serializeUser()`
+    - login 하는 순간, 딱 한 번 호출 된다
+* `passport.deserializeUser()`
+    - login 상태에서 page를 reload할 때마다 호출된다
 
 ### WEB6 - Multi User on Passport : 시작
+#### '커버 페이지' ~ 접근제어 - 글쓰기'
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
