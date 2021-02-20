@@ -245,14 +245,14 @@
 #### '커버 페이지' ~ 'passport.js 자격확인; 강의 2'
 
 ## 2021-02-20
-### WEB5 - Express Passport : 끝
+### WEB5 - Express Passport : 마침
 #### 'passport.js 세션이용' ~ '수업을 마치며'
 * `passport.serializeUser()`
     - login 하는 순간, 딱 한 번 호출 된다
 * `passport.deserializeUser()`
     - login 상태에서 page를 reload할 때마다 호출된다
 
-### WEB6 - Multi User on Passport : 시작
+### WEB6 - Multi User on Passport : 시작 ~ 마침
 #### '커버 페이지' ~ '수업을 마치며'
 * 'bcrypt'를 통해, 사용자의 비밀번호를 암호화하고 저장해라.<br><br>
 * `Validation`
