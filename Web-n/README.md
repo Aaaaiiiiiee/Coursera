@@ -259,6 +259,6 @@
     - 사용자가 입력하는 데이터의 유효성을 체크하는 방법
 
 ### WEB7 - Login with Google passport.js : 시작
-#### '커버 페이지' ~ ''
+#### '커버 페이지' ~ '사용자 추가' (진행 중)
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
