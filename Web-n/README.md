@@ -240,5 +240,9 @@
 ### WEB5 - Express Passport : 시작
 #### '커버페이지' ~ 'passport.js 자격확인; 강의 2'
 
+## 2021-02-20
+### WEB 5 - Express Passport : 끝
+#### 'passport.js 세션이용' ~ ''
+
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
