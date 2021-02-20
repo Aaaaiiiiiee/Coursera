@@ -242,7 +242,8 @@
 
 ## 2021-02-20
 ### WEB 5 - Express Passport : 끝
-#### 'passport.js 세션이용' ~ ''
+#### 'passport.js 세션이용' ~ '수업을 마치며'
 
+### WEB 6 - Multi User on Passport : 시작
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
