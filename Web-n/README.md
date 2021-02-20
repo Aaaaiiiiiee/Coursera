@@ -253,6 +253,9 @@
     - login 상태에서 page를 reload할 때마다 호출된다
 
 ### WEB6 - Multi User on Passport : 시작
-#### '커버 페이지' ~ 접근제어 - 글쓰기'
+#### '커버 페이지' ~ '수업을 마치며'
+* 'bcrypt'를 통해, 사용자의 비밀번호를 암호화하고 저장해라.<br><br>
+* `Validation`
+    - 사용자가 입력하는 데이터의 유효성을 체크하는 방법
 
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
