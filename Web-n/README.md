@@ -20,6 +20,8 @@
     - [WEB4 - Express Session Auth]()
     - [WEB5 - Express Passport]()
     - [WEB6 - Multi User on Passport]()
+    - [WEB7 - Login with Google passport.js]()
+    - [WEB2 - Domain Name System]()
 
 ## 2021-01-20
 ### WEB1 - HTML & Internet : 시작
@@ -271,4 +273,37 @@
 * 보안
     - https를 사용할 것
 
-<br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
+#### cf. 순서상 WEB7 - Login with Facebook on passport ~ WEB2 - Homeserver이나, 일단 건너뛴다.
+
+### WEB2 - Domain Name System
+#### '커버 페이지' ~ '수업을 마치며'
+* 각 computer의 `hosts`파일을 수정하면, 개인화된 Domain 접속 리스트(IP 전화번호부)를 가진다.<br><br>
+* Public DNS Server
+    - https://1.1.1.1
+    - Google DNS Server
+    - ...
+    - You can search `public dns server` in google
+    - 각 통신사에서 제공하는 DNS Server가 있지만, 그들이 기록을 열람할 가능성도 있고 정보를 팔 수도 있다. 때문에 다른 DNS Server를 사용할 수 있다.
+* domain의 IP주소 알아내기
+```bash
+> nslookup example.com
+> nslookup -type=ns example.com
+> nslookup example.com a.iana-servers.net
+```
+* 무료 도메인 서비스
+    - [freenom.com](https://freenom.com)
+* 주제 추천
+    - BIND (Personal DNS Server)
+    - Dynamic DNS (집의 공유기 사용시, IP가 변경되도 자동으로 DNS Server에서 바꿔줌)
+    - HTTPS, SSL
+        - https://letsencrypt.org/
+
+### WEB2 - OAuth 2.0
+#### '커버 페이지' ~ ''
+
+
+<br>
+
+* cf. Markdown Language Preference
+    - [MarkDown 사용법 총정리](https://heropy.blog/2017/09/30/markdown/)
+    - [Make a README](https://www.makeareadme.com/)
