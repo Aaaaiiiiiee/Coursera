@@ -297,6 +297,9 @@
     - Dynamic DNS (집의 공유기 사용시, IP가 변경되도 자동으로 DNS Server에서 바꿔줌)
     - HTTPS, SSL
         - https://letsencrypt.org/
+* cf. 무료 ssl 인증서 발급
+    - [리스트(블로그)](https://m.blog.naver.com/PostView.nhn?blogId=zimny327&logNo=221272304655&proxyReferer=https:%2F%2Fwww.google.com%2F)
+    - [certbot](https://certbot.eff.org/lets-encrypt/ubuntufocal-webproduct)
 
 ### WEB2 - OAuth 2.0 : 시작 ~ 마침
 #### '커버 페이지' ~ '수업을 마치며'
