@@ -298,12 +298,15 @@
     - HTTPS, SSL
         - https://letsencrypt.org/
 
-### WEB2 - OAuth 2.0
-#### '커버 페이지' ~ ''
-
+### WEB2 - OAuth 2.0 : 시작 ~ 마침
+#### '커버 페이지' ~ '수업을 마치며'
+* Resource Server(& Authorization Server)의 API를 사용하기 위한 것
+* 주제추천
+    - Federated identity
+    - Restful, JSON, XML
 
 <br>
 
-* cf. Markdown Language Preference
-    - [MarkDown 사용법 총정리](https://heropy.blog/2017/09/30/markdown/)
-    - [Make a README](https://www.makeareadme.com/)
+### cf. Markdown Language Preference
+* [MarkDown 사용법 총정리](https://heropy.blog/2017/09/30/markdown/)
+* [Make a README](https://www.makeareadme.com/)
