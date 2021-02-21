@@ -1,5 +1,6 @@
 var db = require('../lib/db');
 var bcrypt = require('bcrypt');
+var shortid = require('shortid');
 
 module.exports = function (app) {
 
@@ -55,13 +56,22 @@ module.exports = function (app) {
         callbackURL: googleCredentials.web.redirect_uris[0]
     },
         function (accessToken, refreshToken, profile, done) {
-            console.log('Googlestrategy', accessToken, refreshToken, profile);
-            var email = profile.email;
-            var user = db.get('users')
-                .find({email:email})
-                .assign({googleId: profile.id})
-                .write();
-            done(null, user);
+            var email = profile.emails[0].value;
+            
+            var user = db.get('users').find({email:email}).value();
+            if(user){
+                user.googleId = profile.id;
+                db.get('users').find({id:user.id}).assign(user).write();
+            } else{
+                user = {
+                    id: shortid.generate(),
+                    email: email,
+                    displayName: profile.displayName,
+                    googleId: profile.id
+                }
+                db.get('users').push(user).write();
+            }
+            done(null, user);      
         }
     ));
 

@@ -261,4 +261,14 @@
 ### WEB7 - Login with Google passport.js : 시작
 #### '커버 페이지' ~ '사용자 추가' (진행 중)
 
+## 2021-02-21
+### WEB7 - Login with Google passport.js : 마침
+#### '사용자 추가' ~ '수업을 마치며'
+* GOOGLE의 library인 SDK
+* Node.js의 library인 http
+* Node.js의 module인 request
+    - request를 이용하면 crawler도 만들 수 있을 것
+* 보안
+    - https를 사용할 것
+
 <br>cf. [Markdown Language Preference](https://heropy.blog/2017/09/30/markdown/)
