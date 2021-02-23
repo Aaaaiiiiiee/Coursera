@@ -4,7 +4,8 @@
 * [DATABASE](./DATABASE)
 * [Python](.Python)
 * [socket.io](./socket.io)
-* [bootstrap]()
+* [jQuery_Mobile](./jQuery Mobile)
+* [Bootstrap](./Bootstrap)
 
 cf. [gitpod DOCS](https://www.gitpod.io/docs/)<br>
 cf. [how to connect by ssh](https://opentutorials.org/module/432/3742)<br>
