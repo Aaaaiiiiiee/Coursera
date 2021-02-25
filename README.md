@@ -4,7 +4,7 @@
 * [DATABASE](./DATABASE)
 * [Python](.Python)
 * [socket.io](./socket.io)
-* [jQuery_Mobile](./jQuery Mobile)
+* [jQueryMobile](./jQueryMobile)
 * [Bootstrap](./Bootstrap)
 
 cf. [gitpod DOCS](https://www.gitpod.io/docs/)<br>
