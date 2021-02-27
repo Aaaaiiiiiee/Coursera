@@ -6,3 +6,13 @@
 * [Electron](https://www.electronjs.org/)
 * [react](https://reactnative.dev/)
 * [생활코딩 React 강의](https://opentutorials.org/module/4058)
+
+
+## 2021-02-27
+### my-app
+#### React Docs Tutorial
+
+### opentutorials
+#### 생활코딩 React 강의 : 시작
+* '커버 페이지' ~ 'Create 기능 구현 : Content 변경'
+    - '이벤트' 강의는 건너뜀
