@@ -8,6 +8,7 @@ tasks:
     init: cd Web-n/Source/
     command: pm2 start main.js --watch --ignore-watch="public/* sessions/* .git/*"  --no-daemon
   - name: mysql
+  - name: npm
 
 github:
   prebuilds:

@@ -7,4 +7,4 @@
 
 ## 2021-02-27
 ### [React Native Docs](https://reactnative.dev/docs/getting-started) : 시작
-#### Introduction : Handling Text Input
+#### 'The Basics : Introduction' ~ 'The Basics : Handling Text Input'
