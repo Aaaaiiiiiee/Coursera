@@ -15,7 +15,7 @@ FROM gitpod/workspace-mysql
 #     && sudo yarn global add react-native \
 #     && sudo yarn global add @vue/cli
 
-Run sudo npm install pm2 -g \
+RUN sudo npm install pm2 -g \
     && sudo npm install expo-cli -g \
     && sudo npm install react-native -g \
     && sudo npm install @vue/cli
