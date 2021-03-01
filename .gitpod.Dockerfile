@@ -10,10 +10,10 @@ FROM gitpod/workspace-mysql
 # More information: https://www.gitpod.io/docs/config-docker/
 
 # Install personalize module
-RUN sudo yarn global add pm2 \
-RUN sudo yarn global add expo-cli \
-RUN sudo yarn global add react-native \
-RUN sudo yarn global add @vue/cli
+RUN yarn global add pm2 \
+    && yarn global add expo-cli \
+    && yarn global add react-native \
+    && yarn global add @vue/cli
 
 # RUN sudo npm install pm2 -g \
 #     && sudo npm install expo-cli -g \
