@@ -12,6 +12,7 @@ tasks:
   - name: mysql
   - name: redis
     init: redis-server --daemonize yes
+  - name: git
 
 github:
   prebuilds:
