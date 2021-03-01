@@ -10,8 +10,8 @@ FROM gitpod/workspace-mysql
 # More information: https://www.gitpod.io/docs/config-docker/
 
 # Install personalize module
-RUN sudo apt-get update \
-    && sudo apt-get install -y \
+RUN sudo apt update \
+    && sudo apt install -y \
     && sudo apt install redis-server \
     && sudo rm -rf /var/lib/apt/lists/*
 
