@@ -7,9 +7,11 @@ tasks:
   - name: pm2
     init: cd Web-n/Source/
     command: pm2 start main.js --watch --ignore-watch="public/* sessions/* .git/*"  --no-daemon
-  - name: mysql
   - name: npm
   - name: yarn
+  - name: mysql
+  - name: redis
+    init: redis-server --daemonize yes
 
 github:
   prebuilds:
