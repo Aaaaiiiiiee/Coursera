@@ -20,7 +20,7 @@ RUN sudo apt update \
 #     && sudo apt install unit \
 #     && sudo apt install unit-dev unit-go unit-jsc11 unit-perl unit-php unit-python2.7 unit-python3.8 unit-ruby
     
-RUN pm2 global add pm2 \
+RUN npm global add pm2 \
     && yarn global add expo-cli \
     && yarn global add react-native \
     && yarn global add @vue/cli
