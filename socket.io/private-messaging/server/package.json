@@ -1,12 +1,12 @@
 {
-  "name": "chat_server",
+  "name": "chat-server",
   "version": "1.0.0",
-  "description": "private-chat-server",
+  "description": "chat-private-server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Aaaaiiiiiee",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
