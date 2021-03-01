@@ -27,3 +27,6 @@ io.emit('event', 'message');            // when occurs 'event', emit 'message' t
 socket.on('event name', function(msg){});   // wait for 'event name'. It calls a callback function whenever that event is called.
 socket.emit('event name', message);         // emit `message` to the 'event name'
 ```
+<br>
+
+* [NGINX opentutorial](https://opentutorials.org/module/384/3462)
