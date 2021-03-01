@@ -12,7 +12,7 @@ FROM gitpod/workspace-mysql
 # Install personalize module
 RUN sudo apt update \
     && sudo apt install -y \
-    && sudo apt install redis-server \
+    && sudo apt install redis-server -y \
     && sudo rm -rf /var/lib/apt/lists/*
 
 RUN yarn global add pm2 \
