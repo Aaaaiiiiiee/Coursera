@@ -9,8 +9,7 @@ tasks:
     command: pm2 start main.js --watch --ignore-watch="public/* sessions/* .git/*"  --no-daemon
   - name: mysql
   - name: npm
-    init: npm install -g expo-cli
-    command: npm install -g react-native
+  - name: yarn
 
 github:
   prebuilds:
