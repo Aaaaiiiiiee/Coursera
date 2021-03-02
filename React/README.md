@@ -22,6 +22,6 @@
 * '이벤트' 강의는 건너뜀
 
 ## 2021-03-01
-### Next.js
+### Next.js : 시작
 #### 'Create a Next.js App' ~ 'Assets, Metadata, and CSS : Global Styles 중'
 * 
