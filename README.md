@@ -12,3 +12,5 @@
 cf. [gitpod DOCS](https://www.gitpod.io/docs/)<br>
 cf. [how to connect by ssh](https://opentutorials.org/module/432/3742)<br>
 cf. [gitedu](https://education.github.com/pack)
+
+* [how to render html by ejs](https://d2fault.github.io/2018/12/26/20181226-nodejs-html-load-with-express/)
