@@ -20,3 +20,4 @@ cf. [gitedu](https://education.github.com/pack)
 
 * robots.txt
 
+* [how to render html by ejs](https://d2fault.github.io/2018/12/26/20181226-nodejs-html-load-with-express/)
