@@ -25,3 +25,19 @@
 ### Next.js : 시작
 #### 'Create a Next.js App' ~ 'Assets, Metadata, and CSS : Global Styles 중'
 * 
+
+## 2021-03-06
+### React + Node.js + Express + MySQL
+* Axios(+ ajax) / React 실행 안됨
+
+* react and react-native
+    - [how to build full-stack web application in react](https://www.google.com/search?q=how+to+build+full-stack+web+application+in+react&rlz=1C1SQJL_koKR869KR869&oq=how+to+build+full-stack+web+application+in+react&aqs=chrome..69i57.9231j0j1&sourceid=chrome&ie=UTF-8)
+    - [how to build full-stack application in react-native](https://www.google.com/search?q=how+to+build+full-stack+application+in+react-native&rlz=1C1SQJL_koKR869KR869&oq=how+to+build+full-stack+application+in+react-native&aqs=chrome..69i57.6839j0j1&sourceid=chrome&ie=UTF-8)
+    - [fullstack architecture using React and MySQL](https://www.google.com/search?q=fullstack+architecture+using+React+and+MySQL&rlz=1C1SQJL_koKR869KR869&oq=fullstack+architecture+using+React+and+MySQL&aqs=chrome..69i57.215j0j1&sourceid=chrome&ie=UTF-8)
+        - 3번째 거에서 예제 이용해서 프로젝트 아키텍쳐 이해하기
+
+    - 전부 폐기
+* React 공부 거리
+    - [Node.js와 React간 데이터 주고받기](https://gaemi606.tistory.com/33)
+    - [React에서 Node.js를 Backend로 passport.js 사용하기](https://gaemi606.tistory.com/entry/React-Nodejs%EB%A5%BC-backend%EB%A1%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-Passport-local-%EB%A1%9C%EA%B7%B8%EC%9D%B8)
+        - 이를 이용하면 mysql도 이용 가능하겠다.
