@@ -21,3 +21,5 @@ cf. [gitedu](https://education.github.com/pack)
 * robots.txt
 
 * [how to render html by ejs](https://d2fault.github.io/2018/12/26/20181226-nodejs-html-load-with-express/)
+
+* [statistics with Python](https://stackoverflow.blog/2021/02/16/level-up-mastering-statistics-with-python/)
