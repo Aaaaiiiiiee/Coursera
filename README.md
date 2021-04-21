@@ -15,5 +15,6 @@ cf. [gitedu](https://education.github.com/pack)
   - [web.dev : Progressive Web Apps](https://web.dev/progressive-web-apps/#i18n.paths.progressive_web_apps.topics.introduction)
   - [freecodecamp : What is a PWA?](https://www.freecodecamp.org/news/what-are-progressive-web-apps/)
   - [Mozilla : ServiceWorker Cookbook](https://serviceworke.rs/)
+  - [프로그레시브 웹 앱 시작하기 (1)](https://geundung.dev/85)
 
 * [statistics with Python](https://stackoverflow.blog/2021/02/16/level-up-mastering-statistics-with-python/)
